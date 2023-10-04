@@ -102,48 +102,8 @@ const Faq = () => {
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item
-              className="border_bottom_07  px-2"
-              eventKey="4"
-              data-aos="zoom-out-up"
-              data-aos-duration="2800"
-            >
-              <Accordion.Header>
-                <h4 className="ff_mont fw-semibold text-black fs_sm">
-                  How to participate in the pump using Binance and TrustWallet?
-                </h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p className="ff_mont fw-normal fs_xsm text-black mb-0 ">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  quia ipsam obcaecati beatae porro iusto vero asperiores,
-                  dolore eveniet quidem est ratione iure nisi, dolores placeat
-                  eum officiis voluptate aspernatur.
-                </p>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item
-              className="border_bottom_07  px-2"
-              eventKey="5"
-              data-aos="zoom-out-up"
-              data-aos-duration="3000"
-            >
-              <Accordion.Header>
-                <h4 className="ff_mont fw-semibold text-black fs_sm">
-                  How to participate if u don’t have Binance?
-                </h4>
-              </Accordion.Header>
-              <Accordion.Body>
-                <p className="ff_mont fw-normal fs_xsm text-black mb-0 ">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  quia ipsam obcaecati beatae porro iusto vero asperiores,
-                  dolore eveniet quidem est ratione iure nisi, dolores placeat
-                  eum officiis voluptate aspernatur.
-                </p>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item
               className="border_bottom_07 px-2"
-              eventKey="6"
+              eventKey="4"
               data-aos="zoom-out-up"
               data-aos-duration="3000"
             >
@@ -162,8 +122,7 @@ const Faq = () => {
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item
-              eventKey="0"
-              defaultActivekey="1"
+              eventKey="5"
               className="px-2"
               data-aos="zoom-out-up"
               data-aos-duration="3000"
