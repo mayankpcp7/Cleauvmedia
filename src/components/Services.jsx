@@ -2,14 +2,14 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import { Serviceitems } from "./Helper";
-import servicediamond from "../assets/images/png/service_diamond.png";
-import servicewifi from "../assets/images/png/service_wifi.png";
-import servicedna from "../assets/images/png/service_dna.png";
-import servicedots from "../assets/images/png/service_dots.png";
+import servicediamond from "../assets/images/webp/service_diamond.webp";
+import servicewifi from "../assets/images/webp/service_wifi.webp";
+import servicedna from "../assets/images/webp/service_dna.webp";
+import servicedots from "../assets/images/webp/service_dots.webp";
 const Services = () => {
   return (
     <>
-      <section className="bg_darkgrey py-lg-5 position-relative overflow-hidden">
+      <section className="bg_darkgrey py-lg-5 position-relative overflow-hidden"id="service">
         <div className="service_layer"></div>
         <img
           className="service_diamond tiltanimation"

@@ -1,5 +1,5 @@
-import custemor1 from "../assets/images/png/custemor1.png";
-import custemor2 from "../assets/images/png/custemor2.png";
+import custemor1 from "../assets/images/webp/custemor1.webp";
+import custemor2 from "../assets/images/webp/custemor2.webp";
 
 export const Communitycards = [
   {

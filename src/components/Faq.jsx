@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { Accordion } from "react-bootstrap";
-import greenvec from "../assets/images/png/hero_green.png";
+import greenvec from "../assets/images/webp/hero_green.webp";
 const Faq = () => {
   return (
     <>
-      <section className="bg-white py-5 mb-lg-5 position-relative overflow-hidden">
-        <img className="faq_green scaleanimation" src={greenvec} alt="greenvector" />
+      <section className="bg-white py-5 mb-lg-5 position-relative overflow-hidden"id="faq">
+        <img className="faq_green scaleanimation"src={greenvec} alt="greenvector" />
         <Container className=" pb-sm-5 mb-5">
           <h2 className="text-center ff_mont fs_xl py-5 fw-semibold ">
             Frequently Asked Questions
@@ -142,7 +142,7 @@ const Faq = () => {
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item
-              className="border_bottom_07  px-2"
+              className="border_bottom_07 px-2"
               eventKey="6"
               data-aos="zoom-out-up"
               data-aos-duration="3000"

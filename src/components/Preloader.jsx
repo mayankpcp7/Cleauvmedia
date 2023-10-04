@@ -1,5 +1,5 @@
 import React from "react";
-import Preloaderimg from "../assets/images/png/loading.jpg";
+import Preloaderimg from "../assets/images/webp/loading.webp";
 const Preloader = () => {
   setTimeout(() => {
     document.getElementById("none").classList.add("d-none");

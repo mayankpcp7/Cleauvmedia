@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../assets/images/png/footerlogo.png";
+import footerlogo from "../assets/images/webp/footerlogo.webp";
 import { Facebook, Twitter, Instagram } from "./icons/Socialicons";
 const Footer = () => {
   return (

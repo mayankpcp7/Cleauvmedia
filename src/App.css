@@ -58,9 +58,7 @@
 .z_50 {
   z-index: 50 !important;
 }
-.c_pointer {
-  cursor: pointer;
-}
+
 .border_bottom {
   border-bottom: 1px solid #636163;
 }
@@ -765,18 +763,6 @@ footer ul li a:hover  {color: white;
 
 /* ---------------------------------------------------Animations----------------------------------------- */
 
-.scaleanimation {
-  animation: scale 1.5s alternate infinite ease-in;
-}
-
-@keyframes scale {
-  0% {
-    transform: scale(0.8);
-  }
-  100% {
-    transform: scale(1.1);
-  }
-}
 .tiltanimation {
   animation: tilt 1.5s alternate infinite ease-in;
 }

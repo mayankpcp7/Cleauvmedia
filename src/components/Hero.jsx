@@ -1,13 +1,13 @@
 import React from "react";
 import Mynav from "./Mynav";
-import red from "../assets/images/png/hero_red.png";
-import blue from "../assets/images/png/hero_blue.png";
-import green from "../assets/images/png/hero_green.png";
-import yellow from "../assets/images/png/hero_yellow.png";
-import semivec from "../assets/images/png/half_round_vec.png";
-import roundvec from "../assets/images/png/round_vec.png";
-import linevec from "../assets/images/png/line_vec.png";
-import wifivec from "../assets/images/png/wifi_vec.png";
+import red from "../assets/images/webp/hero_red.webp";
+import blue from "../assets/images/webp/hero_blue.webp";
+import green from "../assets/images/webp/hero_green.webp";
+import yellow from "../assets/images/webp/hero_yellow.webp";
+import semivec from "../assets/images/webp/half_round_vec.webp";
+import roundvec from "../assets/images/webp/round_vec.webp";
+import linevec from "../assets/images/webp/line_vec.webp";
+import wifivec from "../assets/images/webp/wifi_vec.webp";
 const Hero = () => {
   return (
     <>

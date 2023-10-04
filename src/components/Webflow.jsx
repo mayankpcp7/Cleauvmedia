@@ -1,7 +1,7 @@
 import React from "react";
-import webgreen from "../assets/images/png/webflow_green.png";
-import webblue from "../assets/images/png/webflow_blue.png";
-import webwifi from "../assets/images/png/webwifi.png";
+import webgreen from "../assets/images/webp/webflow_green.webp";
+import webblue from "../assets/images/webp/webflow_blue.webp";
+import webwifi from "../assets/images/webp/webwifi.webp";
 const Webflow = () => {
   return (
     <>

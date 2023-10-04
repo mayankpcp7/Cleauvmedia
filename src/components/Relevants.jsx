@@ -1,10 +1,10 @@
 import React from "react";
-import relevantcard1 from "../assets/images/png/relevant_1.png";
-import relevantcard2 from "../assets/images/png/relevant2.png";
-import relevantcard3 from "../assets/images/png/relevant3.png";
-import relevantblue from "../assets/images/png/hero_blue.png";
-import relevantgreen from "../assets/images/png/hero_green.png";
-import relevateddots from "../assets/images/png/relevantdots.png";
+import relevantcard1 from "../assets/images/webp/relevant_1.webp";
+import relevantcard2 from "../assets/images/webp/relevant2.webp";
+import relevantcard3 from "../assets/images/webp/relevant3.webp";
+import relevantblue from "../assets/images/webp/hero_blue.webp";
+import relevantgreen from "../assets/images/webp/hero_green.webp";
+import relevateddots from "../assets/images/webp/relevantdots.webp";
 import Slider from "react-slick";
 
 var myslider = {
@@ -24,7 +24,7 @@ var myslider = {
 const Relevants = () => {
   return (
     <>
-      <section className="bg-white py-sm-5  overflow-hidden position-relative relevated">
+      <section className="bg-white py-sm-5  overflow-hidden position-relative relevated"id="about">
         <img className="relevateddots tiltanimation d-none d-sm-block" src={relevateddots} alt="dots" />
         <img className="relevantblue " src={relevantblue} alt="relevantblue" />
         <img

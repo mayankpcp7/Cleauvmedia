@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Nav } from "react-bootstrap";
-import navlogo from "../assets/images/png/navlogo.png";
+import navlogo from "../assets/images/webp/navlogo.webp";
 import Navopen from "./icons/Navopen";
 import navclose from "../assets/images/svg/closebtn.svg";
 const Mynav = () => {
@@ -21,19 +21,19 @@ const Mynav = () => {
             <img className="cursor_pointer" src={navlogo} alt="navlogo" />
             <ul className="d-lg-flex gap-4 mb-0 d-none  align-items-center">
               <li className="navline ">
-                <a href="you.com">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li className="navline ">
-                <a href="you.com">About</a>
+                <a href="#about">About</a>
               </li>
               <li className="navline ">
-                <a href="you.com">Services</a>
+                <a href="#service">Services</a>
               </li>
               <li className="navline ">
-                <a href="you.com">Content</a>
+                <a href="#content">Content</a>
               </li>
               <li className="navline ">
-                <a href="you.com">FAQ</a>
+                <a href="#faq">FAQ</a>
               </li>
             </ul>
             <button className="mybtn d-none d-lg-block white_border ff_mont text-white fw-normal fw-semibold">

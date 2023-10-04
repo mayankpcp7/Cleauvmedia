@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Row, Col } from "react-bootstrap";
 import check from "../assets/images/svg/check.svg";
-import bookcall from "../assets/images/png/bookcall.png";
-import refer from "../assets/images/png/refer earn.png";
-import pricingred from "../assets/images/png/hero_red.png";
+import bookcall from "../assets/images/webp/bookcall.webp";
+import refer from "../assets/images/webp/refer earn.webp";
+import pricingred from "../assets/images/webp/hero_red.webp";
 
 const Pricingplans = () => {
   return (

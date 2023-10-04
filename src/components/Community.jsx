@@ -1,7 +1,7 @@
 import React from "react";
 import { Communitycards } from "./Helper";
 import Slider from "react-slick";
-import bluevec from "../assets/images/png/hero_blue.png";
+import bluevec from "../assets/images/webp/hero_blue.webp";
 const Community = () => {
   var settings = {
     speed: 1000,

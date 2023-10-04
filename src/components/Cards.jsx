@@ -27,7 +27,7 @@ const Cards = () => {
         breakpoint: 606,
         settings: {
           slidesToShow: 1,
-          infinite:true,
+          infinite: true,
           slidesToScroll: 1,
           centerMode: true,
           centerPadding: "10%",
@@ -38,7 +38,7 @@ const Cards = () => {
   };
   return (
     <>
-      <section className="bg_fade py-5 overflow-hidden">
+      <section className="bg_fade py-5 overflow-hidden"id="content">
         <Slider className="flex align-items-center px-2 py-5" {...settings}>
           <img
             data-aos="flip-left"
