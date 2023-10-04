@@ -2,8 +2,10 @@ import React from "react";
 import Preloaderimg from "../assets/images/gifs/loading-icon-animated-gif-7.jpg";
 const Preloader = () => {
   setTimeout(() => {
-    document.getElementById("none").classList.add("d-none");
-    document.body.classList.remove("overflow-hidden");
+    setTimeout(() => {
+      document.getElementById("none").classList.add("d-none");
+      document.body.style.overflow="unset" ;
+    }, 3000);
   }, 3000);
 
   return (
