@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&family=Montserrat:wght@500&family=Raleway:wght@600&display=swap");
+
+:root {
+  --fs-xxl: 62px;
+  --fs-xl: 44px;
+  --fs-lg: 42px;
+  --fs-md: 24px;
+  --fs-sm: 20px;
+  --fs-xsm: 16px;
+}
+
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+.ff_mont {
+  font-family: "Montserrat Alternates";
+}
+.ff_raleway {
+  font-family: "Raleway";
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --fs-lg: 35px;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --fs-xxl: 32px;
+    --fs-xl: 32px;
+    --fs-xsm: 14px;
+    --fs-md: 20px;
+    --fs-sm: 16px;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    --fs-xxl: 32px;
+    --fs-xl: 32px;
+    --fs-xsm: 14px;
+    --fs-md: 16px;
+    --fs-sm: 16px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-xxl: 52px;
+    --fs-lg: 33px;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-xxl: 45px;
+    --fs-xl: 32px;
+    --fs-lg: 24px;
+    --fs-sm: 18px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-xxl: 42px;
+    --fs-lg: 20px;
+    --fs-sm: 18px;
+  }
+}
