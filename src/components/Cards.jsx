@@ -39,7 +39,7 @@ const Cards = () => {
   return (
     <>
       <section className="bg_fade py-5 overflow-hidden"id="content">
-        <Slider className="flex align-items-center px-2 py-5" {...settings}>
+        <Slider className="flex align-items-center px-2 py-5 mb-5 mb-sm-0" {...settings}>
           <img
             data-aos="flip-left"
             data-aos-duration="2000"

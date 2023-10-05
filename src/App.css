@@ -11,7 +11,9 @@
   background: rgb(255, 230, 0);
   border-radius: 10px;
 }
-.overflow_hidden{overflow: hidden;}
+.overflow_hidden {
+  overflow: hidden;
+}
 /* --------------------------------------------------------------common classes------------------------------------------------ */
 .transition_400 {
   transition: 400ms;
@@ -558,6 +560,13 @@ footer ul li a:hover {
   .relevated .slick-center {
     margin-left: 150px !important;
     margin-right: 150px !important;
+  }
+  .mycontainer {
+    max-width: 1140px !important;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 @media (min-width: 1401px) {

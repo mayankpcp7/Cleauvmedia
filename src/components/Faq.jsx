@@ -7,14 +7,14 @@ const Faq = () => {
     <>
       <section className="bg-white py-5 mb-lg-5 position-relative overflow-hidden"id="faq">
         <img className="faq_green scaleanimation"src={greenvec} alt="greenvector" />
-        <Container className=" pb-sm-5 mb-5">
+        <Container className=" pb-sm-5 mb-5 mycontainer">
           <h2 className="text-center ff_mont fs_xl py-5 fw-semibold ">
             Frequently Asked Questions
           </h2>
 
           <Accordion
             defauljustify-content-centertActivekey="1"
-            className=" mb-lg-5 mw_879"
+            className=" mb-lg-5 "
           >
             <Accordion.Item
               className="border_bottom_07  px-2"
